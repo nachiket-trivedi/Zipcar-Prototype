@@ -1,0 +1,83 @@
+.mainDiv {
+    overflow: hidden;
+    
+  }
+  .navDiv {
+    float: left;
+    padding-bottom: 1000px;
+    position: fixed;
+    top: 0;
+  }
+  .homeDiv {
+    float: right;
+    margin: 15px;
+    z-index: -1;
+  }
+  
+  .coverImage2 {
+    background-image: url(https://static01.nyt.com/images/2019/10/02/video/02-still-for-america-room-loop/02-still-for-america-room-loop-superJumbo.jpg);
+    background-size: cover;
+    height: 30vh;
+  }
+  
+  .buttonButton2 {
+    /* style={{backgroundColor:"rgb(7, 146, 123)",border:"1px solid rgb(7, 146, 123)"}} */
+    background-color: rgb(7, 146, 123);
+    border: 1px solid rgb(7, 146, 123);
+    float:right;
+    margin-top:2%;
+    margin-right:5%;
+  }
+  
+  
+  .buttonButton2:hover{
+      background-color:rgb(16, 102, 88);
+      border: 1px solid rgb(16, 102, 88);
+  }
+
+  .buttonButton {
+    /* style={{backgroundColor:"rgb(7, 146, 123)",border:"1px solid rgb(7, 146, 123)"}} */
+    background-color: rgb(7, 146, 123);
+    border: 1px solid rgb(7, 146, 123);
+  }
+  
+  
+  .buttonButton:hover{
+      background-color:rgb(16, 102, 88);
+      border: 1px solid rgb(16, 102, 88);
+  }
+  
+  .bookButton {
+    /* style={{backgroundColor:"rgb(7, 146, 123)",border:"1px solid rgb(7, 146, 123)"}} */
+    background-color: rgb(7, 146, 123);
+    border: 1px solid rgb(7, 146, 123);
+    float:right;
+    
+  }
+  
+  .bookButton:hover{
+      background-color:rgb(16, 102, 88);
+      border: 1px solid rgb(16, 102, 88);
+  }
+  
+  .listItem{
+  margin:2px;
+  }
+  
+  .inputForm {
+      padding: 20px;
+      float: center;
+      clear: both;
+      height:50vh;
+      width:80ch;
+    }
+  
+    .headText{
+      font-size: 24px;
+    }
+
+    .tabClass{
+      margin:2vh;
+      width:100ch;
+
+  }

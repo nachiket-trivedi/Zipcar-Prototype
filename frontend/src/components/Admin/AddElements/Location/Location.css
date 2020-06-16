@@ -1,0 +1,94 @@
+.addForm {
+    overflow: hidden;
+    margin:5%;
+  }
+  .navDiv {
+    float: left;
+    padding-bottom: 1000px;
+    position: fixed;
+    top: 0;
+  }
+  .homeDiv {
+    float: right;
+    margin: 15px;
+    z-index: -1;
+  }
+
+  .tabss{
+    background-color:rgb(7, 146, 123);
+    width:50%;
+    border-radius:5px;
+    color:white;
+    font-weight:10px;
+}
+
+.tabss:hover{
+    background-color: rgb(62, 165, 148);
+}
+
+.tabss:focus{
+    background-color: rgb(3, 43, 36);
+    outline: none;
+}
+
+.centerClass{
+  align-content: center;
+}
+  
+  .coverImage {
+    background-image: url(https://www.erieinsurance.com/-/media/images/blog/articlephotos/2018/rentalcarlg.ashx);
+    background-size: cover;
+    height: 30vh;
+  }
+  
+  .buttonButton {
+    /* style={{backgroundColor:"rgb(7, 146, 123)",border:"1px solid rgb(7, 146, 123)"}} */
+    background-color: rgb(7, 146, 123);
+    border: 1px solid rgb(7, 146, 123);
+  }
+  
+  .cancelButton {
+    /* style={{backgroundColor:"rgb(7, 146, 123)",border:"1px solid rgb(7, 146, 123)"}} */
+    background-color: rgb(218, 69, 69);
+    margin-left:1%;
+    border: 1px solid rgb(218, 69, 69);
+  }
+
+  .cancelButton:hover{
+    background-color: rgb(211, 118, 118);
+    border: 1px solid rgb(211,118, 118);
+  }
+  
+  .buttonButton:hover{
+      background-color:rgb(16, 102, 88);
+      border: 1px solid rgb(16, 102, 88);
+  }
+  
+  .bookButton {
+    /* style={{backgroundColor:"rgb(7, 146, 123)",border:"1px solid rgb(7, 146, 123)"}} */
+    background-color: rgb(7, 146, 123);
+    border: 1px solid rgb(7, 146, 123);
+    float:right;
+    
+  }
+  
+  .bookButton:hover{
+      background-color:rgb(16, 102, 88);
+      border: 1px solid rgb(16, 102, 88);
+  }
+  
+  .listItem{
+  margin:2px;
+  }
+  
+  .inputForm {
+      padding: 20px;
+      float: center;
+      clear: both;
+      height:50vh;
+      width:80ch;
+    }
+  
+    .headText{
+      font-size: 24px;
+    }
